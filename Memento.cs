@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace miniTexteditor
 {
-    class Memento
+    class Memento//This is the type of data im storing. + set & get
     {
-        private string word;
+        private string oneWord;
 
-        public Memento(string word)
+        public Memento(string inWord)//Set memento
         {
-            this.word = word;
+            this.oneWord = inWord;
         }
 
-        public string getWord()
+        public string getSavedWord()//get memento
         {
-            return word;
+            return oneWord;
         }
     }
 }

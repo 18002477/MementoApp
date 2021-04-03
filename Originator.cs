@@ -8,22 +8,25 @@ namespace miniTexteditor
 {
     class Originator
     {
-        private string word;
+        private string oneWord;//temp holding cell for what is going to be stored in memento
 
-        public void set(string inWord)
+        public void setWord(string newWord)
         {
-            this.word = inWord;
+            this.oneWord = newWord;
         }
 
-        public void createMemento(string inWordInMemento)
+        public Memento createMemento(string inWordInMemento)
         {
             Memento memento = new Memento(inWordInMemento);
 
+            return memento;
         }
 
-        public string restoreMemento(Memento memento)
+        public string restoreFromMemento(Memento memento)
         {
-            return word;
+            oneWord = memento.getSavedWord();
+
+            return oneWord;
         }
 
     }

@@ -18,6 +18,6 @@ namespace miniTexteditor
         public Memento getMemento(DateTime dateTime)
         {
             return mementos[dateTime];
-        }
+         }
     }
 }
