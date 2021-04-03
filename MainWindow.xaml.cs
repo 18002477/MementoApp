@@ -20,6 +20,8 @@ namespace miniTexteditor
     /// </summary>
     public partial class MainWindow : Window
     {
+        Caretaker caretaker = new Caretaker();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,8 +29,19 @@ namespace miniTexteditor
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            tb_text.Text = "Clicked!";
+            Originator originator = new Originator();
+            Memento temp = originator.createMemento(tb_text.Text);
+            caretaker.addMemento(temp);
+
         }
 
+        private void lstBox_memento_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+            for (int i = 0; i < caretaker.count(); i++)
+            {
+                lstBox_memento.Items.Add(caretaker.getMemento(i).getSavedWord());
+            }
+        }
     }
 }

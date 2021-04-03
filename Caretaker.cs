@@ -8,16 +8,21 @@ namespace miniTexteditor
 {
     class Caretaker
     {
-        private Dictionary<DateTime, Memento> mementos = new Dictionary<DateTime, Memento>();
+        private List<Memento> mementos = new List<Memento>();
 
-        public void addMemento(DateTime dateTime, Memento memento)
+        public void addMemento(Memento memento)
         {
-            mementos.Add(dateTime, memento);
+            mementos.Add(memento);
         }
 
-        public Memento getMemento(DateTime dateTime)
+        public Memento getMemento(int inIndex)
         {
-            return mementos[dateTime];
-         }
+            return mementos[inIndex];
+        }
+
+        public int count()
+        {
+            return mementos.Count();
+        }
     }
 }
