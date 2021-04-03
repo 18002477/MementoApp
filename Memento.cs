@@ -15,7 +15,7 @@ namespace miniTexteditor
             this.word = word;
         }
 
-        public string Word()
+        public string getWord()
         {
             return word;
         }

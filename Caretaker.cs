@@ -14,5 +14,10 @@ namespace miniTexteditor
         {
             mementos.Add(dateTime, memento);
         }
+
+        public Memento getMemento(DateTime dateTime)
+        {
+            return mementos[dateTime];
+        }
     }
 }
