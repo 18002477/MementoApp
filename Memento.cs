@@ -8,7 +8,7 @@ namespace miniTexteditor
 {
     class Memento
     {
-        string word;
+        private string word;
 
         public Memento(string word)
         {
