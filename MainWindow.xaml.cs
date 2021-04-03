@@ -24,5 +24,11 @@ namespace miniTexteditor
         {
             InitializeComponent();
         }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            tb_text.Text = "Clicked!";
+        }
+
     }
 }
