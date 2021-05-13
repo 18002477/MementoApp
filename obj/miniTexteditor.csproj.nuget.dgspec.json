@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sandi\\source\\repos\\Personal_GitHub\\miniTextEditor\\miniTexteditor.csproj": {}
+    "C:\\Users\\Sandi\\Source\\Repos\\miniTextEditor\\miniTexteditor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sandi\\source\\repos\\Personal_GitHub\\miniTextEditor\\miniTexteditor.csproj": {
+    "C:\\Users\\Sandi\\Source\\Repos\\miniTextEditor\\miniTexteditor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sandi\\source\\repos\\Personal_GitHub\\miniTextEditor\\miniTexteditor.csproj",
+        "projectUniqueName": "C:\\Users\\Sandi\\Source\\Repos\\miniTextEditor\\miniTexteditor.csproj",
         "projectName": "miniTexteditor",
-        "projectPath": "C:\\Users\\Sandi\\source\\repos\\Personal_GitHub\\miniTextEditor\\miniTexteditor.csproj",
+        "projectPath": "C:\\Users\\Sandi\\Source\\Repos\\miniTextEditor\\miniTexteditor.csproj",
         "packagesPath": "C:\\Users\\Sandi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sandi\\source\\repos\\Personal_GitHub\\miniTextEditor\\obj\\",
+        "outputPath": "C:\\Users\\Sandi\\Source\\Repos\\miniTextEditor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",

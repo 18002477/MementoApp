@@ -29,6 +29,8 @@ namespace miniTexteditor
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+
+
             Originator originator = new Originator();
             Memento temp = originator.createMemento(tb_text.Text);
             caretaker.addMemento(temp);
@@ -37,7 +39,7 @@ namespace miniTexteditor
 
         private void lstBox_memento_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-
+            lstBox_memento.Items.Clear();
             for (int i = 0; i < caretaker.count(); i++)
             {
                 lstBox_memento.Items.Add(caretaker.getMemento(i).getSavedWord());
