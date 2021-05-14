@@ -9,25 +9,29 @@ namespace miniTexteditor
     class Originator
     {
         private string oneWord;//temp holding cell for what is going to be stored in memento
-
         public void setWord(string newWord)
         {
             this.oneWord = newWord;
         }
 
-        public Memento createMemento(string inWordInMemento)
+        public string GetWord()
         {
-            Memento memento = new Memento(inWordInMemento);
-
-            return memento;
-        }
-
-        public string restoreFromMemento(Memento memento)
-        {
-            oneWord = memento.getSavedWord();
-
             return oneWord;
         }
+
+        public Memento createMemento()
+        {
+            return new Memento(oneWord);
+        }
+        public void restoreFromMemento(Memento memento)
+        {
+            oneWord = memento.GetWord();
+            //return oneWord;
+        }
+
+
+
+
 
     }
 

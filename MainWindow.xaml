@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:miniTexteditor"
         mc:Ignorable="d"
-        Title="Text editor pro" Height="279" Width="371">
+        Title="Text editor pro" Height="312" Width="404">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Text editor pro" FontSize="30" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
-        <TextBox x:Name="tb_text" HorizontalAlignment="Left" Margin="10,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Height="149"/>
-        <Button Content="◀" HorizontalAlignment="Left" Margin="137,204,0,0" VerticalAlignment="Top" Width="25"/>
-        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="56,204,0,0" VerticalAlignment="Top" Width="38" Click="Save_Click" RenderTransformOrigin="-2.342,0.837"/>
-        <Button Content="▶" HorizontalAlignment="Left" Margin="175,204,0,0" VerticalAlignment="Top" Width="28"/>
-        <ListBox x:Name="lstBox_memento" Margin="223,10,15,23" MouseDoubleClick="lstBox_memento_MouseDoubleClick"/>
+        <TextBox x:Name="tb_text" Margin="10,50,168,64" Text="" TextWrapping="Wrap" KeyUp="tb_text_KeyUp"/>
+        <Button x:Name="btn_undo" Content="◀" HorizontalAlignment="Left" Margin="170,0,0,34" Width="25" Click="btn_undo_Click" Height="20" VerticalAlignment="Bottom" IsEnabled="False"/>
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="10,0,0,39" Width="38" Click="Save_Click" RenderTransformOrigin="-2.342,0.837" Height="20" VerticalAlignment="Bottom"/>
+        <Button x:Name="btn_redo" Content="▶" HorizontalAlignment="Left" Margin="208,0,0,34" Width="28" Click="btn_redo_Click" Height="20" VerticalAlignment="Bottom"/>
+        <ListBox x:Name="lstBox_memento" Margin="0,10,15,23" MouseDoubleClick="lstBox_memento_MouseDoubleClick" HorizontalAlignment="Right" Width="133"/>
 
     </Grid>
 

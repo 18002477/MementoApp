@@ -8,16 +8,16 @@ namespace miniTexteditor
 {
     class Memento//This is the type of data im storing. + set & get
     {
-        private string oneWord;
+        private string word;
 
         public Memento(string inWord)//Set memento
         {
-            this.oneWord = inWord;
+            this.word = inWord;
         }
 
-        public string getSavedWord()//get memento
+        public string GetWord()//get memento
         {
-            return oneWord;
+            return word;
         }
     }
 }

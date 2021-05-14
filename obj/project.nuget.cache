@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DttEhWMUu1KK85PKXCN6z+NBvap0ULtpQ6EPLRtbD3LthMzM7yZh3VI+WiF40gBgSB+MKGxYUdxUn2kjiC42LA==",
+  "dgSpecHash": "qODkZp5uTZi2gfg3VrhW31CTpv8LrdJkrxxQbKpeFnLrDCoXe1w+/NqeD4LuBuB0bdEggohfMWksQWl+nITFDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sandi\\Source\\Repos\\miniTextEditor\\miniTexteditor.csproj",
+  "projectFilePath": "C:\\Users\\Sandi\\source\\repos\\miniTexteditor\\miniTexteditor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

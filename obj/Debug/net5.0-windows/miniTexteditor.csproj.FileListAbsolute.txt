@@ -41,3 +41,4 @@ C:\Users\Sandi\Source\Repos\miniTextEditor\obj\Debug\net5.0-windows\miniTextedit
 C:\Users\Sandi\Source\Repos\miniTextEditor\obj\Debug\net5.0-windows\ref\miniTexteditor.dll
 C:\Users\Sandi\Source\Repos\miniTextEditor\obj\Debug\net5.0-windows\miniTexteditor.pdb
 C:\Users\Sandi\Source\Repos\miniTextEditor\obj\Debug\net5.0-windows\miniTexteditor.genruntimeconfig.cache
+C:\Users\Sandi\Source\Repos\miniTextEditor\obj\Debug\net5.0-windows\miniTexteditor.csprojAssemblyReference.cache
