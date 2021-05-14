@@ -1,2 +1,2 @@
-# miniTextEditor
+# Memento
 Using memento design pattern
